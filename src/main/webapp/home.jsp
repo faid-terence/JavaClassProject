@@ -29,18 +29,7 @@
       @media (max-width: 991px) {
         .div-2 {
           max-width: 100%;
-          margin: 40px 0;<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+          margin: 40px 0;
         }
       }
       .div-3 {
@@ -205,34 +194,30 @@
    
   <body>
     <div class="div">
-      <div class="div-2">
-        <div class="div-3">
-          <div class="column">
-            <div class="div-4">
-              <span class="span">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/e88226b865bd2fa7a5528ab355e3de291913e9c45cfd890f6990ea459aa45591?"
-                  class="img"
-                />
-                <div class="div-5">Health Care</div>
-              </span>
-              <span class="span-2">
-                <div class="div-6">User Name</div>
-                <input type="text" class="input-username" />
-                <div class="div-7">Password</div>
-                <input type="password" class="input-password" />
-                <button type="submit" class="submit-button">Submit</button>
-              </span>
+        <div class="div-2">
+            <div class="div-3">
+                <div class="column">
+                    <div class="div-4">
+                        <span class="span">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e88226b865bd2fa7a5528ab355e3de291913e9c45cfd890f6990ea459aa45591?" class="img" />
+                            <div class="div-5">Health Care</div>
+                        </span>
+                        <span class="span-2">
+                            <form action="/" method="post">
+                                <div class="div-6">User Name</div>
+                                <input type="text" class="input-username" name="username" required/>
+                                <div class="div-7">Password</div>
+                                <input type="password" class="input-password" name="password" required/>
+                                <button type="submit" class="submit-button">Submit</button>
+                            </form>
+                        </span>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7155d07304602422db5cff0bf7cafffcaf215d9f85dc9d6f1a815ed0f679c625?" class="img-4" />
+                </div>
             </div>
-          </div>
-          <div class="column-2">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/7155d07304602422db5cff0bf7cafffcaf215d9f85dc9d6f1a815ed0f679c625?"
-              class="img-4"
-            />
-          </div>
         </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
