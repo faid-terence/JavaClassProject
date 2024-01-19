@@ -192,7 +192,7 @@
     </style>
   </head>
    
-  <body>
+ <body>
     <div class="div">
         <div class="div-2">
             <div class="div-3">
@@ -203,7 +203,7 @@
                             <div class="div-5">Health Care</div>
                         </span>
                         <span class="span-2">
-                            <form action="/" method="post">
+                            <form action="Doctor" method="post">
                                 <div class="div-6">User Name</div>
                                 <input type="text" class="input-username" name="username" required/>
                                 <div class="div-7">Password</div>
@@ -214,10 +214,11 @@
                     </div>
                 </div>
                 <div class="column-2">
+                    <!-- Adjust the image source based on your needs -->
                     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7155d07304602422db5cff0bf7cafffcaf215d9f85dc9d6f1a815ed0f679c625?" class="img-4" />
                 </div>
             </div>
         </div>
     </div>
-</body>
+  </body>
 </html>
