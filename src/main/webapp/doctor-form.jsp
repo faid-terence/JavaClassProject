@@ -12,9 +12,19 @@
             background-color: #f0f0f0;
         }
 
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         header {
-            background-color: #dc3545;
-            padding: 10px 0;
+            background-color: #3399ff;
+            padding: 15px;
+            text-align: center;
+            color: white;
         }
 
         .navbar-brand {
@@ -70,23 +80,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #dc3545;">
-            <div>
-                <a href="https://www.javaguides.net" class="navbar-brand"> Doctor Management System </a>
-            </div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <!-- You may add more navigation links if needed -->
-                </ul>
-            </div>
-        </nav>
+     <header>
+        <h2>Doctor Management</h2>
     </header>
     <br>
     <div class="container col-md-8 col-lg-6">
